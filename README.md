@@ -3,7 +3,7 @@
 A modern web application for cataloging and exploring books, authors, and series. Built with Svelte and TypeScript, this platform provides an intuitive interface for users to discover and learn about their favorite books and authors. Project made in the Starter Project course at Formação DEV
 
 
-## **Visualização** 👀  
+## 👀 **Preview** 
 [Ordem dos Livros Preview](https://ordem-livros-nine.vercel.app)
 
 
