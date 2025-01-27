@@ -10,7 +10,7 @@
     secundario="Conheça os personagens das histórias que você ama!"
   />
 
-  <div class="grid grid-cols-2 gap-5">
+  <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
     {#each personagens as personagem}
       <ItemPersonagem {personagem} />
     {/each}

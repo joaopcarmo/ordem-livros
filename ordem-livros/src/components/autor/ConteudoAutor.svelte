@@ -1,8 +1,5 @@
 <script lang="ts">
   import { marked } from "marked";
-
-  // biome-ignore lint/suspicious/noExplicitAny: <explanation>
-  // biome-ignore lint/style/useConst: <explanation>
   export let autor: any = null;
 </script>
 
