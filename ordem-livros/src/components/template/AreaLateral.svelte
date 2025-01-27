@@ -12,8 +12,7 @@
     IconSquare3,
     IconUsers,
     IconBrandLinkedin,
-    IconBrandLinkedinFilled
-
+    IconBrandLinkedinFilled,
   } from "@tabler/icons-svelte";
   import Menu from "./Menu.svelte";
   import MenuItem from "./MenuItem.svelte";
@@ -55,15 +54,14 @@
     <MenuItem texto="Séries Populares" href="/">
       <IconBooks size={20} />
     </MenuItem>
-    <MenuItem texto="Facebook" href="/">
+    <MenuItem texto="Facebook" href="https://www.linkedin.com/in/joaopcarmo/">
       <IconBrandFacebook size={20} />
     </MenuItem>
-    <MenuItem texto="Instagram" href="/">
+    <MenuItem texto="Instagram" href="https://www.linkedin.com/in/joaopcarmo/">
       <IconBrandInstagram size={20} />
     </MenuItem>
     <MenuItem texto="Linkedin" href="https://www.linkedin.com/in/joaopcarmo/">
       <IconBrandLinkedin size={20} />
     </MenuItem>
-  
   </Menu>
 </aside>
