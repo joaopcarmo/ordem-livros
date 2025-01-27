@@ -1,12 +1,11 @@
-<script>
-    // biome-ignore lint/style/useConst: <explanation>
-    export let titulo = "Menu";
+<script lang="ts">
+  export let titulo: string;
+  export let className = "";
 </script>
 
-
-<div class="flex flex-col gap-3">
-    <span class="text-sm font-bold text-zinc-500">{titulo}</span>
-    <ul class ="flex flex-col">
-        <slot></slot>
-    </ul>
+<div class="menu-section mb-4">
+  <h2 class={`text-zinc-500 font-bold text-sm mb-2 ${className}`}>{titulo}</h2>
+  <nav class="flex flex-col space-y-0.5">
+    <slot />
+  </nav>
 </div>
